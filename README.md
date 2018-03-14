@@ -1,8 +1,12 @@
-# Analysis of Emergent Properties of Information Processing Systems Operating in Complex Environments.
+# Analysis of Emergent Properties of Information Processing Systems Operating in Complex Environments
 by Bliss Chapman (nbchapm2@illinois.edu) and Varsha Subrahmanyam (varsha2@illinois.edu)
 
-## Problem Motivation
-We would like to understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent multi-goal interaction.  What conditions cause such a system to degenerate (i.e. make it impossible for agents to achieve their goals)?
+## Goal
+We would like to understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent multi-goal interaction.
+
+Why?
+1) Understanding the conditions in which a system degenerates (i.e. reaches a state where it's impossible for agents to achieve their goals) allows us to optimize the processes that guide development of human systems.
+2) Understanding the nature of cooperation and conflict through study of mechanical information processing systems (i.e. computers) allows us to gain further insight into how humans became human and builds a foundation for analysis of extraterrestrial life.
 
 ## Problem Formulation
 We propose the use of state of the art deep reinforcement learning techniques as a model of behavior for a rational agent acting with limited information about the environment (including the other agents).  We then design environments and models of agents with various properties and apply classical statistical simulation techniques to study the resulting interaction.
