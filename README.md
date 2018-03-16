@@ -19,10 +19,12 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 5) **Alien Invasion** - Agent A, Agent B, and SuperAgent C live in a nxn grid world with obstacles. The goal state for Agent A and Agent B is to 'capture' SuperAgent C. SuperAgent C has complete knowledge of the environment and the locations of Agent A and B. Will Agent A and B learn to cooperate to capture the more technologically advanced Agent C?
 
 ## Thought Experiments
-1) Simulate an artificial neuron with a very simple actuator. What properties emerge when entire populations of neurons are exposed to simple inputs? What if the inputs are randomized? What if the inputs represent an encoding of simple patterns of beeps? What if the inputs represent an encoding of Beethoven's 5th Symphony?
-2) Finally, here's an example of a simulation way beyond the scope of anything we can simulate directly today: Are religious belief systems an emergent property of information processing systems evolving in an environment like Earth?
+1) **Neurons & Neocortex** - Simulate an artificial neuron with a simple action space: {fire, do nothing}. When a neuron fires, it changes the properties of its local environment which often includes the environment of neighboring neurons. The goal of each neuron is to use an internal representation of the local environment to optimize the system's overall capacity to predict the next input. What patterns in actuation emerge when an entire population of neurons is exposed to spatio-temporally varying input? What if the inputs are completely random? What if the inputs represent an encoding of simple patterns of beeps? What if the inputs represent an encoding of Beethoven's 5th Symphony?
+2) **Religion as a Natural Phenomenon** - Are religious belief systems an emergent property of information processing systems evolving in the constraints of our physical universe and an Earth-like environment? What belief systems would emerge in [Flatland](http://www.geom.uiuc.edu/~banchoff/Flatland/)?
 
 ## Resources
+[Game Theory of Mind](http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1000254&type=printable)
+
 [Understanding Agent Cooperation](https://deepmind.com/blog/understanding-agent-cooperation/)
 
 [Homo Economicus](https://en.wikipedia.org/wiki/Homo_economicus)
