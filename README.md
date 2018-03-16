@@ -1,25 +1,25 @@
 # Analysis of Emergent Properties of Information Processing Systems Operating in Complex Environments
-by Bliss Chapman (nbchapm2@illinois.edu) and Varsha Subrahmanyam (varsha2@illinois.edu)
+by [Bliss Chapman](nbchapm2@illinois.edu) and [Varsha Subrahmanyam](varsha2@illinois.edu)
 
 ## Goal
 We would like to understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent multi-goal interaction.
 
 Why?
-1) Understanding the conditions in which a system degenerates (i.e. reaches a state where it's impossible for agents to achieve their goals), allows us to optimize the processes that guide development of human systems.
-2) Understanding the nature of cooperation and conflict through study of mechanical information processing systems (i.e. computers), yields insights into the beginnings of human society and builds a foundation for analysis of extraterrestrial life.
+1) Understanding the conditions in which a system degenerates (i.e. reaches a state where it's impossible for agents to achieve the optimal outcome) allows us to optimize the processes that guide development of human systems.
+2) Understanding the nature of cooperation and conflict through study of mechanical information processing systems (i.e. computers) yields insights into the beginnings of human society and builds a foundation for analysis of extraterrestrial life.
 
 ## Problem Formulation
-We propose the use of state of the art reinforcement learning techniques as a model of behavior for a rational agent acting with limited information about the environment (including the other agents).  We then design environments and models of agents with various properties and apply classical statistical simulation techniques to study the resulting interaction.
+We propose the use of reinforcement learning as a model of behavior for a rational agent operating in a partially observed environment. Note that the environment often includes other agents. We then vary the properties of the environment and agent models and study the resulting interaction through statistical simulation.
 
 ## Experiments
-1) **Shoot Out** - Agent A and Agent B live in a nxn grid world with a single overlapping path to a goal state.  Agent A and Agent B can either 1) stay still 2) move in any of the 4 cardinal directions or 3)'attack' in any of the 4 cardinal directions.  There is only room for one agent in the goal square.  Will Agent A and Agent B learn to attack one another to maximize their own reward?
-2) **Pas de Deux** - Agent A and Agent B again live in a nxn grid world.  This time the goal state is only achieved if both agents occupy squares that are mirror images of each other.  Over time, the reward derived from staying in a goal state decreases and a rational agent would move to another square.  Will Agent A and Agent B learn to mirror each other's actions to achieve maximal reward?
-3) **Prisoner's Dilemma** - Agent A and Agent B again live in a nxn grid world that simulates the conditions of [Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma).  Will Agent A and Agent B learn to cooperate in a single iteration of Prisoner's Dilemma?  What about in many iterations of Prisoner's Dilemma?  What about if the number of total iterations of Prisoner's Dilemma is known by the agents?
-4) **One Night Werewolf** - Repeat experiment 3 but allowing each agent to signal an intent to the other agents.  Each agent can choose to either lie or not to lie.  How does this change the outcome of iterated Prisoner's Dilemma?  What if we add a third Agent C?  What if each agent has a predefined level of trustworthiness that is known by them alone and allows them to lie about their intent only a certain fraction of the time?
-5) **Alien Invasion** - Agent A, Agent B, and SuperAgent C live in a nxn grid world with obstacles.  The goal state for Agent A and Agent B is to 'capture' SuperAgent C.  SuperAgent C has complete knowledge of the environment and the locations of Agent A and B.  Will Agent A and B learn to cooperate to capture the more technologically advanced Agent C?
+1) **Shoot Out** - Agent A and Agent B live in a nxn grid world with a single overlapping path to a goal state. Agent A and Agent B can either 1) stay still 2) move in any of the 4 cardinal directions or 3) _attack_ in any of the 4 cardinal directions. Only one agent can stay in the goal square. Will Agent A and Agent B learn to attack one another to maximize their individual reward?
+2) **Pas de Deux** - Agent A and Agent B again live in a nxn grid world. This time a reward is only achieved if both agents occupy squares that are mirror images of each other. Over time, the reward derived from staying in a goal state decreases and a rational agent would move to another square. Will Agent A and Agent B learn to mirror each other's actions to achieve maximal reward?
+3) **Prisoner's Dilemma** - Agent A and Agent B again live in a nxn grid world that simulates the conditions of [Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). Will Agent A and Agent B learn to cooperate in a single iteration of Prisoner's Dilemma? What if we increase the number of iterations of Prisoner's Dilemma? What if the number of total iterations of Prisoner's Dilemma is known by the agents?
+4) **One Night Werewolf** - Repeat experiment 3 but allowing each agent to signal an intent to the other agents. Each agent can choose to either lie or not to lie. How does this change the outcome of iterated Prisoner's Dilemma? What if we add a third Agent C? What if each agent has a predefined level of trustworthiness that is known by them alone and allows them to lie about their intent only a certain fraction of the time?
+5) **Alien Invasion** - Agent A, Agent B, and SuperAgent C live in a nxn grid world with obstacles. The goal state for Agent A and Agent B is to 'capture' SuperAgent C. SuperAgent C has complete knowledge of the environment and the locations of Agent A and B. Will Agent A and B learn to cooperate to capture the more technologically advanced Agent C?
 
 ## Thought Experiments
-1) Simulate an artificial neuron with a very simple actuator.  What properties emerge when entire populations of neurons are exposed to simple inputs?  What if the inputs are randomized?  What if the inputs represent an encoding of simple patterns of beeps?  What if the inputs represent an encoding of Beethoven's 5th Symphony?
+1) Simulate an artificial neuron with a very simple actuator. What properties emerge when entire populations of neurons are exposed to simple inputs? What if the inputs are randomized? What if the inputs represent an encoding of simple patterns of beeps? What if the inputs represent an encoding of Beethoven's 5th Symphony?
 2) Finally, here's an example of a simulation way beyond the scope of anything we can simulate directly today: Are religious belief systems an emergent property of information processing systems evolving in an environment like Earth?
 
 ## Resources
