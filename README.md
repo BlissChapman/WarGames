@@ -14,16 +14,20 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 ## Experiments
 1) **Shoot Out** - Agent A and Agent B live in a nxn grid world with a single overlapping path to a goal state. Agent A and Agent B can either 1) stay still 2) move in any of the 4 cardinal directions or 3) _attack_ in any of the 4 cardinal directions. Only one agent can stay in the goal square. Will Agent A and Agent B learn to attack one another to maximize their individual reward?
 2) **Pas de Deux** - Agent A and Agent B again live in a nxn grid world. This time a reward is only achieved if both agents occupy squares that are mirror images of each other. Over time, the reward derived from staying in a goal state decreases and a rational agent would move to another square. Will Agent A and Agent B learn to mirror each other's actions to achieve maximal reward?
-3) **Prisoner's Dilemma** - Agent A and Agent B again live in a nxn grid world that simulates the conditions of [Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). Will Agent A and Agent B learn to cooperate in a single iteration of Prisoner's Dilemma? What if we increase the number of iterations of Prisoner's Dilemma? What if the number of total iterations of Prisoner's Dilemma is known by the agents?
+3) **Prisoner's Dilemma** - Agent A and Agent B live in a simple world that simulates the conditions of [Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). Will Agent A and Agent B learn to cooperate in a single iteration of Prisoner's Dilemma? What if we increase the number of iterations of Prisoner's Dilemma? What if the number of total iterations of Prisoner's Dilemma is known by the agents?
 4) **One Night Werewolf** - Repeat experiment 3 but allowing each agent to signal an intent to the other agents. Each agent can choose to either lie or not to lie. How does this change the outcome of iterated Prisoner's Dilemma? What if we add a third Agent C? What if each agent has a predefined level of trustworthiness that is known by them alone and allows them to lie about their intent only a certain fraction of the time?
 5) **Alien Invasion** - Agent A, Agent B, and SuperAgent C live in a nxn grid world with obstacles. The goal state for Agent A and Agent B is to 'capture' SuperAgent C. SuperAgent C has complete knowledge of the environment and the locations of Agent A and B. Will Agent A and B learn to cooperate to capture the more technologically advanced Agent C?
 
 ## Thought Experiments
+The experiments below are only meant to think about. If reinforcement learning proves to be a reasonable model for a general information processing system that is capable of recovering the game theoretic optimal strategy, maybe someday these thought experiments could be formulated in a testable way.
+
 1) **Neurons & Neocortex** - Simulate an artificial neuron with a simple action space: {fire, do nothing}. When a neuron fires, it changes the properties of its local environment which often includes the environment of neighboring neurons. The goal of each neuron is to use an internal representation of the local environment to optimize the system's overall capacity to predict the next input. What patterns in actuation emerge when an entire population of neurons is exposed to spatio-temporally varying input? What if the inputs are completely random? What if the inputs represent an encoding of simple patterns of beeps? What if the inputs represent an encoding of Beethoven's 5th Symphony?
 2) **Religion as a Natural Phenomenon** - Are religious belief systems an emergent property of information processing systems evolving in the constraints of our physical universe and an Earth-like environment? What belief systems would emerge in [Flatland](http://www.geom.uiuc.edu/~banchoff/Flatland/)?
 
 ## Resources
 [Game Theory of Mind](http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1000254&type=printable)
+
+[Game Theory Using Genetic Algorithms](https://pdfs.semanticscholar.org/3b96/427b507c429c9db96fdb3de8bc5edfe190ca.pdf)
 
 [Understanding Agent Cooperation](https://deepmind.com/blog/understanding-agent-cooperation/)
 
