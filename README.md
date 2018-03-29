@@ -1,5 +1,6 @@
-# Analysis of Emergent Properties of Information Processing Systems Operating in Complex Environments
-by [Bliss Chapman](nbchapm2@illinois.edu) and [Varsha Subrahmanyam](varsha2@illinois.edu)
+# WarGames
+### An Analysis of Emergent Properties of Information Processing Systems Operating in Complex Environments
+_"A strange game. The only winning move is not to play. How about a nice game of chess?."_ ~ Joshua (WarGames, 1983)
 
 ## Goal
 We would like to understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent multi-goal interaction.
