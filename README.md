@@ -21,10 +21,10 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 ## Results
 ### Explore
 ##### AgentRandom
-![AgentRandom](examples/Explore/AgentRandom.gif)
+![AgentRandom](results/Explore/AgentRandom.gif)
 
 ##### AgentQ
-![AgentQ](examples/Explore/AgentQ.gif)
+![AgentQ](results/Explore/AgentQ.gif)
 
 ## Thought Experiments
 The experiments below are only meant to think about. If reinforcement learning proves to be a reasonable model for a general information processing system that is capable of recovering the game theoretic optimal strategy, maybe someday these thought experiments could be formulated in a testable way.
