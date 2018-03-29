@@ -25,6 +25,9 @@ _written by Bliss Chapman on 3/29/18_
 Games simulate the interaction between the environment and an agent.
 
 #### Methods
+`__init__(self, agent)`
+- The init method must accept an agent to simulate against the underlying environment.
+
 `reset(self)`
 - Restores the game to the initial state. This is often as simple as resetting the underlying environment.
 
