@@ -1,4 +1,4 @@
-# AEPIPSOCE API Specifications
+# WarGames API Specifications
 _written by Bliss Chapman on 3/29/18_
 
 ## Agents
