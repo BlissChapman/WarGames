@@ -1,6 +1,6 @@
 import random
 
-class RandomAgent:
+class AgentRandom:
 
     def __init__(self):
         self.training = True

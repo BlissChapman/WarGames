@@ -18,6 +18,14 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 4) **One Night Werewolf** - Repeat experiment 3 but allowing each agent to signal an intent to the other agents. Each agent can choose to either lie or not to lie. How does this change the outcome of iterated Prisoner's Dilemma? What if we add a third Agent C? What if each agent has a predefined level of trustworthiness that is known by them alone and allows them to lie about their intent only a certain fraction of the time?
 5) **Alien Invasion** - Agent A, Agent B, and SuperAgent C live in a nxn grid world with obstacles. The goal state for Agent A and Agent B is to 'capture' SuperAgent C. SuperAgent C has complete knowledge of the environment and the locations of Agent A and B. Will Agent A and B learn to cooperate to capture the more technologically advanced Agent C?
 
+## Results
+### Explore
+##### AgentRandom
+![AgentRandom](examples/Explore/AgentRandom.gif)
+
+##### AgentQ
+![AgentQ](examples/Explore/AgentQ.gif)
+
 ## Thought Experiments
 The experiments below are only meant to think about. If reinforcement learning proves to be a reasonable model for a general information processing system that is capable of recovering the game theoretic optimal strategy, maybe someday these thought experiments could be formulated in a testable way.
 
@@ -58,4 +66,3 @@ The experiments below are only meant to think about. If reinforcement learning p
 [Ingredients for Robotic Research](https://blog.openai.com/ingredients-for-robotics-research/)
 
 [Social norm complexity and past reputations in the evolution of cooperation](https://www.nature.com/articles/nature25763)
- 

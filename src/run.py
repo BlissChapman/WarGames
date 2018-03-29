@@ -5,7 +5,7 @@ import sys
 
 # Parse arguments
 parser = argparse.ArgumentParser(description="Run simulator with specified agent and environment.")
-parser.add_argument('agent', choices=['random', 'AgentQ'], help='the agent to simulate')
+parser.add_argument('agent', choices=['AgentRandom', 'AgentQ'], help='the agent to simulate')
 parser.add_argument('game', choices=['explore'], help='the game to simulate')
 parser.add_argument('num_training_games', type=int, help='the number of training games to play')
 parser.add_argument('output_dir', help='the directory to save simulation results')
@@ -16,9 +16,9 @@ shutil.rmtree(args.output_dir, ignore_errors=True)
 os.makedirs(args.output_dir)
 
 # Initialize agent
-if args.agent == 'random':
-    from agents.RandomAgent import RandomAgent
-    agent = RandomAgent()
+if args.agent == 'AgentRandom':
+    from agents.AgentRandom import AgentRandom
+    agent = AgentRandom()
 elif args.agent == 'AgentQ':
     from agents.AgentQ import AgentQ
     agent = AgentQ()
