@@ -6,7 +6,9 @@ class GridWorld:
     def __init__(self):
         self.width = 5
         self.height = 5
+        self.reset()
 
+    def reset(self):
         self.agent_x = 0
         self.agent_y = 0
 

@@ -3,11 +3,10 @@ import random
 class RandomAgent:
 
     def __init__(self):
-        pass
+        self.training = True
 
-    def action(self, state):
+    def action(self, state, action_choices):
         # Choose a random direction
-        action_choices = ['N', 'E', 'S', 'W']
         return random.choice(action_choices)
 
     def learn(self, state, action, chosen_next_state, reward_for_choice):
