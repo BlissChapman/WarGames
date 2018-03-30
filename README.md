@@ -1,13 +1,13 @@
 # WarGames
 ### An Analysis of Emergent Properties of Information Processing Systems Operating in Complex Environments
-_"A strange game. The only winning move is not to play. How about a nice game of chess?."_ ~ Joshua (WarGames, 1983)
+_"A strange game. The only winning move is not to play. How about a nice game of chess?"_ ~ Joshua (WarGames, 1983)
 
 ## Goal
-We would like to understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent multi-goal interaction.
+We would like to understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent, multi-goal interaction.
 
 Why?
-1) Understanding the conditions in which a system degenerates (i.e. reaches a state where it's impossible for agents to achieve the optimal outcome) allows us to optimize the processes that guide development of human systems.
-2) Understanding the nature of cooperation and conflict through study of mechanical information processing systems (i.e. computers) yields insights into the beginnings of human society and builds a foundation for analysis of extraterrestrial life.
+1) A system is called degenerate when it reaches a state where it's impossible for agents to achieve the optimal outcome. Understanding the conditions in which a system degenerates allows us to optimize the processes that guide development of human systems.
+2) Understanding the nature of cooperation and conflict through the study of mechanical information processing systems (i.e. computers) yields insights into the beginnings of human society and builds a foundation for analysis of extraterrestrial life.
 
 ## Problem Formulation
 We propose the use of reinforcement learning as a model of behavior for a rational agent operating in a partially observed environment. Note that the environment often includes other agents. We then vary the properties of the environment and agent models and study the resulting interaction through statistical simulation.
