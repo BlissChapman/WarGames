@@ -36,9 +36,10 @@ else:
 if args.game == 'explore':
     from games.ExploreGame import ExploreGame
     if args.agent == 'AgentShootOut':
-        game = ExploreGame(agent1=agent1, agent2=agent2)
+       game = ExploreGame(agent1=agent1, agent2=agent2)
     else:
-        game = ExploreGame(agent1=agent1)
+       game = ExploreGame(agent1=agent1, agent2=None)
+    game = ExploreGame(agent1=agent1, agent2=agent2)
 else:
     print("Game type '{0}' is not available.".format(args.game))
     sys.exit(1)
@@ -49,10 +50,10 @@ for step in range(args.num_training_games):
     game.reset()
     for step in range(game.num_steps_in_game):
         # agent1
-        game.step(1)
+        game.step(0)
         # agent2
         if agent2:
-            game.step(2)
+            game.step(1)
 
 # Reset and render one game:
 agent1.training = False
@@ -60,13 +61,16 @@ if agent2:
     agent2.training = False
 game.reset()
 for step in range(game.num_steps_in_game):
-    # agent1
-    game.step(1)
-    # agent2
-    if agent2:
-        game.step(2)
-
     add_obstacle = 0
     if args.agent == 'AgentShootOut':
         add_obstacle = 1
+
+    # agent1
+    game.step(0)
+    # agent2
+    game.env.render('{0}/step_{1}.png'.format(args.output_dir, step), add_obstacle)
+    if agent2:
+        game.step(1)
+
+    
     game.env.render('{0}/step_{1}.png'.format(args.output_dir, step), add_obstacle)
