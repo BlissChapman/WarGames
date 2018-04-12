@@ -67,3 +67,7 @@ The experiments below are only meant to think about. If reinforcement learning p
 [Ingredients for Robotic Research](https://blog.openai.com/ingredients-for-robotics-research/)
 
 [Social norm complexity and past reputations in the evolution of cooperation](https://www.nature.com/articles/nature25763)
+
+[Emergent Communication through Negotiation](https://arxiv.org/abs/1804.03980)
+
+[Emergence of Linguistic Communication from Referential Games with Symbolic and Pixel Input](https://arxiv.org/abs/1804.03984)
