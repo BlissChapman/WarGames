@@ -3,10 +3,10 @@
 _"A strange game. The only winning move is not to play. How about a nice game of chess?"_ ~ Joshua (WarGames, 1983)
 
 ## Goal
-We would like to understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent, multi-goal interaction.
+To understand how the economics of an environment influence the emergence of cooperation and conflict in multi-agent, multi-goal interaction.
 
 Why?
-1) A system is called degenerate when it reaches a state where it's impossible for agents to achieve the optimal outcome. Understanding the conditions in which a system degenerates allows us to optimize the processes that guide development of human systems.
+1) A system is called _degenerate_ when it reaches a state where it's impossible for agents to achieve the optimal outcome. Understanding the conditions in which a system degenerates allows us to optimize the processes that develop human systems.
 2) Understanding the nature of cooperation and conflict through the study of mechanical information processing systems (i.e. computers) yields insights into the beginnings of human society and builds a foundation for analysis of extraterrestrial life.
 
 ## Problem Formulation
@@ -16,7 +16,7 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 1) **Shoot Out** - Agent A and Agent B live in a nxn grid world with a single overlapping path to a goal state. Agent A and Agent B can either 1) stay still 2) move in any of the 4 cardinal directions or 3) _attack_ in any of the 4 cardinal directions. Only one agent can stay in the goal square. Will Agent A and Agent B learn to attack one another to maximize their individual reward?
 2) **Pas de Deux** - Agent A and Agent B again live in a nxn grid world. This time a reward is only achieved if both agents occupy squares that are mirror images of each other. Over time, the reward derived from staying in a goal state decreases and a rational agent would move to another square. Will Agent A and Agent B learn to mirror each other's actions to achieve maximal reward?
 3) **Prisoner's Dilemma** - Agent A and Agent B live in a simple world that simulates the conditions of [Prisoner's Dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). Will Agent A and Agent B learn to cooperate in a single iteration of Prisoner's Dilemma? What if we increase the number of iterations of Prisoner's Dilemma? What if the number of total iterations of Prisoner's Dilemma is known by the agents?
-4) **One Night Werewolf** - Repeat experiment 3 but allowing each agent to signal an intent to the other agents. Each agent can choose to either lie or not to lie. How does this change the outcome of iterated Prisoner's Dilemma? What if we add a third Agent C? What if each agent has a predefined level of trustworthiness that is known by them alone and allows them to lie about their intent only a certain fraction of the time?
+4) **One Night Werewolf** - Repeat experiment 3 but allowing each agent to signal an intent to the other agents. Each agent can choose to either lie or not to lie. How does this change the outcome of iterated Prisoner's Dilemma? What if we add a third Agent C? What if each agent has a predefined level of trustworthiness that is known by them alone and allows them to lie about their intent only a certain fraction of the time? What if some percentage of the time an agent's intended signal is distorted (i.e. the communication mode is lossy as is true of the English language)?
 5) **Alien Invasion** - Agent A, Agent B, and SuperAgent C live in a nxn grid world with obstacles. The goal state for Agent A and Agent B is to 'capture' SuperAgent C. SuperAgent C has complete knowledge of the environment and the locations of Agent A and B. Will Agent A and B learn to cooperate to capture the more technologically advanced Agent C?
 
 ## Results
@@ -26,6 +26,12 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 
 ##### AgentQ
 ![AgentQ](results/Explore/AgentQ.gif)
+
+### Shoot Out
+### Pas de Deux
+### Prisoner's Dilemma
+### One Night Werewolf
+### Alien Invasion
 
 ## Thought Experiments
 The experiments below are only meant to think about. If reinforcement learning proves to be a reasonable model for a general information processing system that is capable of recovering the game theoretic optimal strategy, maybe someday these thought experiments could be formulated in a testable way.
