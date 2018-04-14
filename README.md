@@ -30,16 +30,17 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 ### Shoot Out
 ### Pas de Deux
 ### Prisoner's Dilemma
-*_In the figures below, orange represents betrayal and green represents cooperation. The movement of the agents through the grid represents progression through time._*
+**_In the figures below, orange represents betrayal and green represents cooperation. The movement of the agents through the grid represents progression through time._**
 
-*Will Agent A and Agent B learn to cooperate in single iteration Prisoner's Dilemma?*
+**Will Agent A and Agent B learn to cooperate in single iteration Prisoner's Dilemma?**
 ![PrisonersDilemmaSingleIteration](results/PrisonersDilemma/SingleIteration.gif)
+
 In single iteration Prisoner's Dilemma, the optimal action is to betray. As illustrated in the figure above, the reinforcement learning agents have recovered the game theoretic optimal behavior.
 
-*What if the agents can remember a history of the last 5 iterations of Prisoner's Dilemma?*
+**What if the agents can remember a history of the last 5 iterations of Prisoner's Dilemma?**
 ![PrisonersDilemmaHistory](results/PrisonersDilemma/History.gif)
 
-*What if the agents can remember a history of the last 3 iterations and the number of iterations of Prisoner's Dilemma remaining is known by the agents?*
+**What if the agents can remember a history of the last 3 iterations and the number of iterations of Prisoner's Dilemma remaining is known by the agents?**
 ![PrisonersDilemmaHistoryTimeLeft](results/PrisonersDilemma/HistoryAndTimeRemaining.gif)
 
 ### One Night Werewolf
