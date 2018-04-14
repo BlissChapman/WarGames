@@ -30,6 +30,15 @@ We propose the use of reinforcement learning as a model of behavior for a ration
 ### Shoot Out
 ### Pas de Deux
 ### Prisoner's Dilemma
+In the figures below, orange represents betrayal and green represents cooperation. The movement of the agents through the grid represents the progression through time.
+
+Will Agent A and Agent B learn to cooperate in single iteration Prisoner's Dilemma?
+
+What if the agents can remember a history of the last 5 iterations of Prisoner's Dilemma?
+
+What if the agents can remember a history of the last 3 iterations and the number of iterations of Prisoner's Dilemma remaining is known by the agents?
+![PrisonersDilemmaHistoryTimeLeft](results/PrisonersDilemma/HistoryAndTimeRemaining.gif)
+
 ### One Night Werewolf
 ### Alien Invasion
 
