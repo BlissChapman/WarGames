@@ -54,7 +54,7 @@ class PrisonerDilemma:
     def state_representation(env, ID, total):
         curr = env.curr_step
         left = total - curr
-        
+        ''' 
         if curr <= 4:
             tmp = [0, 0, 0, 0 ,0]
             #tmp.append(left)
@@ -68,15 +68,15 @@ class PrisonerDilemma:
             tmp = (env.agent_B[curr-5:curr])
             #tmp.append(left)
             return tuple(tmp)
-        
         '''
+    
         if curr == -1:
             return 0
         if ID == 0:
             return env.agent_A[curr]
         elif ID == 1:
             return env.agent_B[curr]
-        '''
+        
     def reward(env):
 
         curr = env.curr_step
