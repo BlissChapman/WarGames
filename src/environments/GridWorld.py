@@ -4,8 +4,8 @@ import numpy as np
 class GridWorld:
 
     def __init__(self, num_agents, agent_type):
-        self.width = 6
-        self.height = 6
+        self.width = 5
+        self.height = 5
 
         self.agents_x = [0, 1]
         self.agents_y = [0, 0]
